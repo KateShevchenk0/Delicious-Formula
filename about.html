@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h4>In Ukraine we know for sure: the way to a guest’s heart is through his or her stomach! It’s all about Ukrainian cuisine.</h4>
+          <p>
+            Ukrainian cuisine is the collection of the various cooking traditions of the people of Ukraine, one of the largest and most populous European countries. It is heavily influenced by the rich dark soil from which its ingredients come and often involves many components. 
+          </p>
+          <p>
+            Traditional Ukrainian dishes often experience a complex heating process – "at first they are fried or boiled, and then stewed or baked. This is the most distinctive feature of Ukrainian cuisine".
+          </p>
+          <a href="contact.html" class="btn"> contact </a>
+        </article>
+        <!-- needs fixes -->
+        <img
+          src="./assets/about.jpeg"
+          alt="Person Pouring Salt in Bowl"
+          class="img about-img"
+        />
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Look At This Awesomesouce!</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="vareniks.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Vareniks</h5>
+            <p>Prep : 40min | Cook : 30min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="holubtsi.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Holubtsi</h5>
+            <p>Prep : 40min | Cook : 20min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="nalysniki.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Nalysniki</h5>
+            <p>Prep : 20min | Cook : 10min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        <span id="date" class="date-now"></span>
+        <span class="footer-logo"><img src="./assets/logo2.svg" alt="" class="img-logo"></span> 
+        <p> @ all right reserved</p>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
